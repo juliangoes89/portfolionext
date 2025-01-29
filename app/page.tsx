@@ -2,11 +2,6 @@ import { client } from "@/client";
 import { gql } from "@apollo/client";
 import Image from "next/image";
 
-interface HomeProps {
-  title: string;
-  description: string;
-}
-
 export default async function Home() {
   const {data} = await client.query({
     query: gql`
