@@ -1,6 +1,29 @@
+import { client } from "@/client";
+import { gql } from "@apollo/client";
 import Image from "next/image";
 
-export default function Home() {
+interface HomeProps {
+  title: string;
+  description: string;
+}
+
+export default async function Home() {
+  const {data} = await client.query({
+    query: gql`
+    query NewQuery {
+      pages {
+        nodes {
+        title
+      }
+    }
+  }`
+  });
+  console.log(data.pages.nodes);
+  let firstPage = '';
+  if(data.pages.nodes.length > 0) {
+    firstPage = data.pages.nodes[0].title;
+  }
+  
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
@@ -20,7 +43,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>This is the julian portfolio page</li>
+          <li>{firstPage}</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
