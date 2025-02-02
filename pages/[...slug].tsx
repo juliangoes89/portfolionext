@@ -5,7 +5,6 @@ import { gql } from "@apollo/client";
 import { title } from "process";
 
 export default function Page(props:any) {
-    console.log(props);
     return <div>
         <BlockRenderer blocks={props.blocks} />
     </div>;
