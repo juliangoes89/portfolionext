@@ -7,7 +7,9 @@ export const Cover = ({children, background }: { key: any, children?: React.Reac
         alt="Background Cover Image" 
         fill  
         className='mix-blend-soft-light object-cover' />
-        {children? children : null}
+        <div className='max-w-5xl z-10'>
+            {children? children : null}
+        </div>
     </div>
     );
 };
