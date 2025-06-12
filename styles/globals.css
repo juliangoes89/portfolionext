@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+    h1, h2, h3, h4, h5, h6{
+        @apply font-bold;
+    }
+    input,textarea{
+        @apply bg-color-background border-gray-color;
+    }
+}
+@layer components{
+    .icons-container{
+        @apply p-4 aspect-square bg-card-color w-max rounded-full;
+    }
+    .icons{
+        @apply fill-green-color w-10;
+    }
+    .focus-input{
+        @apply outline-none focus:ring-1 focus:ring-green-color focus:ring-inset transition;
+    }
+}
+@layer utilities{
+    .clip-circle-0{
+        clip-path: circle(0% at top right);
+    }
+    .clip-circle-full{
+        clip-path: circle(150% at top right);
+    }
+}
+
 :root {
   --background: #0a0a0a;
   --foreground: #ededed;
@@ -12,3 +40,4 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
