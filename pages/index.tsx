@@ -22,14 +22,14 @@ export default function Home(props:any) {
                 md:relative md:grid-flow-col 
                 md:p-0 md:bg-transparent">
                     <li>
-                        <a href="#">About me</a>
+                        <a href="#projects">Projects</a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="#">Services</a>
                     </li>
                     <li>
                         <a href="#">Contact me</a>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
             <section className="pt-10 pb-16 md:flex md:justify-between md:items-center gap-8">
@@ -39,10 +39,10 @@ export default function Home(props:any) {
                 <article className="text-center mt-8 md:w-1/2 md:text-left">
                     <h1 className="text-4xl md:text-5xl">Hi, I am Julian Gomez</h1>
                     <p className="text-gray-color text-xl mt-3 mb-6">Fullstack Developer.</p>
-                    <div className="grid grid-cols-[repeat(auto-fit,minmax(170px,1fr))] auto-rows-[60px] gap-8 max-w-lg mx-auto md:mx-0">
+                    {/* <div className="grid grid-cols-[repeat(auto-fit,minmax(170px,1fr))] auto-rows-[60px] gap-8 max-w-lg mx-auto md:mx-0">
                         <a href="#" className="bg-green-color flex items-center justify-center">Download CV</a>
                         <a href="#" className="flex items-center justify-center border border-white">Learn More</a>
-                    </div>
+                    </div> */}
                 </article>
             </section>
         </header>
@@ -122,7 +122,7 @@ export default function Home(props:any) {
                 </form>
             </section> */}
              <section className="py-16 text-center">
-                <h2 className="text-4xl mb-16 md:text-5xl">Projects</h2>
+                <h2 className="text-4xl mb-16 md:text-5xl" id="projects">Projects</h2>
                 <h3 className="text-4xl mb-16 md:text-4xl">Game Development Unity</h3>
                 <div className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-8">
                     <article className="space-y-4 bg-card-color py-12 px-8 border-b-2 border-transparent">
