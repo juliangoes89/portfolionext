@@ -125,7 +125,7 @@ export default function Home(props:any) {
                 <h2 className="text-4xl mb-16 md:text-5xl">Projects</h2>
                 <h3 className="text-4xl mb-16 md:text-4xl">Game Development Unity</h3>
                 <div className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-8">
-                    <article className="space-y-4">
+                    <article className="space-y-4 bg-card-color py-12 px-8 border-b-2 border-transparent">
                         <h2 className="text-3xl font-bold">2D Runner game</h2>
                         <h3 className="text-green-color text-2xl">It is an infinite runner game where you must collect items while avoiding obstacles in a randomly generated level.</h3>
                         <iframe
@@ -145,7 +145,7 @@ export default function Home(props:any) {
                           }}
                         ></iframe>
                     </article>
-                    <article className="space-y-4">
+                    <article className="space-y-4 bg-card-color py-12 px-8 border-b-2 border-transparent">
                        <h2 className="text-3xl font-bold">Dinosaur</h2>
                        <h3 className="text-green-color text-2xl"> It is a virtual pet game where you have to take care of a dinosaur that is a pet</h3>
                        <iframe
@@ -165,7 +165,7 @@ export default function Home(props:any) {
                          }}
                        ></iframe>
                     </article>
-                    <article className="space-y-4">
+                    <article className="space-y-4  bg-card-color py-12 px-8 border-b-2 border-transparent">
                        <h2 className="text-3xl font-bold">Monkey</h2>
                        <h3 className="text-green-color text-2xl">A game where you control a monkey inside a ball with the phone acelerometer</h3>
                        <iframe
@@ -188,7 +188,7 @@ export default function Home(props:any) {
                 </div>
                 <h3 className="text-4xl mb-16 mt-16 md:text-4xl">Game Development Flash</h3>
                 <div className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-8">
-                    <article className="space-y-4">
+                    <article className="space-y-4  bg-card-color py-12 px-8 border-b-2 border-transparent">
                         <h2 className="text-3xl font-bold">Platformer</h2>
                         <h3 className="text-green-color text-2xl">It was a platformer game for a design assignature project</h3>
                         <iframe
@@ -208,7 +208,7 @@ export default function Home(props:any) {
                           }}
                         ></iframe>
                     </article>
-                    <article className="space-y-4">
+                    <article className="space-y-4  bg-card-color py-12 px-8 border-b-2 border-transparent">
                        <h2 className="text-3xl font-bold">Plant vs Zombies clone</h2>
                        <h3 className="text-green-color text-2xl"> It is a tower defense game where you have to protect your garden from zombies</h3>
                        <iframe
@@ -228,7 +228,7 @@ export default function Home(props:any) {
                          }}
                        ></iframe>
                     </article>
-                    <article className="space-y-4">
+                    <article className="space-y-4  bg-card-color py-12 px-8 border-b-2 border-transparent">
                        <h2 className="text-3xl font-bold">Upik</h2>
                        <h3 className="text-green-color text-2xl"> A rhythm game submitted on global game jam 2016</h3>
                        <iframe
@@ -251,7 +251,7 @@ export default function Home(props:any) {
                 </div>
                 <h3 className="text-4xl mb-16 mt-16 md:text-4xl">Arduino/Raspberry Pi Projects</h3>
                 <div className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-8">
-                    <article className="space-y-4">
+                    <article className="space-y-4  bg-card-color py-12 px-8 border-b-2 border-transparent">
                        <h2 className="text-3xl font-bold">Arduino LED Matrix Control</h2>
                        <h3 className="text-green-color text-2xl">A project to control an LED Matrix with an Arduino board</h3>
                        <iframe
@@ -271,7 +271,7 @@ export default function Home(props:any) {
                          }}
                        ></iframe>
                     </article>
-                    <article className="space-y-4">
+                    <article className="space-y-4  bg-card-color py-12 px-8 border-b-2 border-transparent">
                        <h2 className="text-3xl font-bold">Wifi Remote Control Car</h2>
                        <h3 className="text-green-color text-2xl">A project to control a car with a Arduino via Wifi on a web interface </h3>
                        <iframe
@@ -291,7 +291,7 @@ export default function Home(props:any) {
                          }}
                        ></iframe>
                     </article>
-                    <article className="space-y-4">
+                    <article className="space-y-4  bg-card-color py-12 px-8 border-b-2 border-transparent">
                        <h2 className="text-3xl font-bold">Pong</h2>
                        <h3 className="text-green-color text-2xl">A project to create a Pong game with an Arduino and a Gameduino shield</h3>
                        <iframe
@@ -312,8 +312,8 @@ export default function Home(props:any) {
                        ></iframe>
                     </article>
                 </div>
-                <div className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-8">
-                    <article className="space-y-4">
+                <div className="grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))] gap-8 mt-8">
+                    <article className="space-y-4  bg-card-color py-12 px-8 border-b-2 border-transparent">
                        <h2 className="text-3xl font-bold">Arcade</h2>
                        <h3 className="text-green-color text-2xl">An arcade machine using a Raspberry pi and Arduino Leonardo and Retroarch</h3>
                        <iframe
@@ -333,7 +333,7 @@ export default function Home(props:any) {
                          }}
                        ></iframe>
                     </article>
-                    <article className="space-y-4">
+                    <article className="space-y-4  bg-card-color py-12 px-8 border-b-2 border-transparent">
                        <h2 className="text-3xl font-bold">AR Kart</h2>
                        <h3 className="text-green-color text-2xl">Based on Mario Kart, I created a car controled by an Arduino and a RFID module, also using Augmented reality on the RFID cards representing the power-ups</h3>
                        <iframe
