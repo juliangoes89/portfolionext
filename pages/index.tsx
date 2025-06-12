@@ -6,11 +6,21 @@ import { cleanAndTransformBlocks } from "@/utils/cleanAndTransformBlocks";
 export default function Home(props:any) {
   return (
     <div>
-      <BlockRenderer blocks={props.blocks} />
+      <h1 style={{ position: "absolute", left: "-9999px" }}>Portafolio en construcción</h1>
+      <div className="flex justify-center items-center">
+        <img
+          src="/PaginaConstruccion1.png"
+          alt="Página en construcción"
+          className="max-w-full max-h-full"
+          style={{ maxHeight: "500px", maxWidth: "100%" }}
+        />
+      </div>
     </div>
   );
 }
-
+/* <div>
+      <BlockRenderer blocks={props.blocks} />
+    </div> */
 export const getStaticProps = async () => {
   const result = await client.query({
     query: gql`
