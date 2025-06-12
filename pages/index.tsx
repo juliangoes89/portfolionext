@@ -60,9 +60,9 @@ export default function Home(props:any) {
                     </article>
                     <article className="w-max grid justify-items-center">
                         <div className="icons-container">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="icons"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path></svg>
+                              <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 448 512" className="icons"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
                         </div>
-                        <h3 className="text-2xl mt-4 mb-2">Facebook</h3>
+                        <h3 className="text-2xl mt-4 mb-2">Linkedin</h3>
                         <p className="font-light">juliangoes89</p>
                     </article>
                     <article className="w-max grid justify-items-center">
